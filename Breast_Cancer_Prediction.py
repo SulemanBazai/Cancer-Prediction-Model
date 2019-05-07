@@ -1,4 +1,4 @@
-#This program uses data of charateritics of cancer tumors to build a predictive model.
+#This program uses data of characteristics of cancer tumors to build a predictive model.
 #The algorithm can predict any input characteristic based on data of other chosen characteristics.
 #Two methods are used, SVD least squares regression, and Newtons method of convergence.
 
