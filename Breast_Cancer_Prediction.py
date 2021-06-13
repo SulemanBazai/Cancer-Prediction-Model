@@ -19,7 +19,7 @@ tumor_data = pd.io.parsers.read_csv("breast-cancer-train.dat", header=None, name
 
 #subset_headers is a list of the characteristics we wish to use when making predictions
 subset_headers = []
-#random_number_parameters rnadomizes the number of characteristics we wish to use when building subset_headers
+#random_number_parameters randomizes the number of characteristics we wish to use when building subset_headers
 random_number_parameters = np.random.randint(len(all_headers)-3)
 for i in range(random_number_parameters):
     subset_headers.append(all_headers[i+3])
